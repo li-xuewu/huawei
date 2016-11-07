@@ -1,0 +1,700 @@
+/*顶部导航 start*/
+.topnavbox{
+width: 100%;
+height: 36px;
+background-color: #5d5d58;
+}
+.topnav{
+	width: 1170px;
+	height: 36px;
+	margin: 0 auto;
+}
+.topnav li{
+	float: left;
+}
+.topnav1{
+    width: 62px;
+    height: 36px;
+    background-color: white;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.topnav1:hover{
+    cursor: pointer;
+}
+.topnav5{
+    width: 142px;
+    height: 36px;
+    background-color: #5d5d58;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.topnav5:hover{
+    background-color:#2e2e2e;
+    cursor: pointer;
+}
+.topnav3{
+    width: 142px;
+    height: 36px;
+    background-color: #5d5d58;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.topnav3:hover{
+    background-color:#2e2e2e;
+    cursor: pointer;
+}
+.topnav4{
+    width: 142px;
+    height: 36px;
+    background-color: #5d5d58;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.topnav4:hover{
+    background-color:#2e2e2e;
+    cursor: pointer;
+}
+.topnav .white{
+	color: #cccccc;
+}
+
+/*顶部导航 end*/
+/*logo栏 start*/
+.logo{
+	width: 1170px;
+	height: 80px;
+	margin: 0 auto;
+}
+.huawei{
+	cursor: pointer;
+}
+.logo-right li{
+	float: left;
+}
+.logo-right .wenzijianju{
+	line-height: 80px;
+}
+.logo ul{
+	float: right;
+}
+.logo1{
+	float: left;
+}
+.wenzijianju{
+	margin: 0px 6px;
+}
+.tupianjianju{
+	margin:28px 5px 0px 10px;
+	cursor: pointer;
+
+}
+.tupianjianju1{
+	margin: 28px 5px 0px 5px;
+	cursor: pointer;
+}
+.tupianjianju2{
+	margin: 28px 3px 0px 5px;
+	cursor: pointer;
+}
+.logo-right a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*顶部导航 end*/
+/*banner栏 start*/
+.topnav2{
+	width: 100%;
+	height: 52px;
+	background-color: #f7f7f7;
+	border-top: 1px solid #ffffff;
+	border-bottom: 2px solid #e5e5e5;
+}
+.topnav2-top{
+	width: 1170px;
+	height: 52px;
+	margin: 0 auto;
+}
+.topnav2-hezi{
+	width: 121px;
+	height: 52px;
+	border-radius: 4px;
+	background-color: white;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	line-height: 52px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.zhengqi{
+	float: left;
+}
+.tu2{
+	margin-left: 6px;
+}
+.topnav2-hezi:hover{
+	color:red;
+}
+.tu3{
+	margin-left: 3px;
+	margin-right: 9px;
+}
+.topnav2-top li{
+	font-size: 16px;
+	float: left;
+	margin-left: 42px;
+	line-height: 52px;
+}
+.xiahuaxian{
+	border-bottom: 1px solid #e5e5e5;
+	height: 52px;
+	width: 65px;
+}
+.xiahuaxian:hover{
+	border-bottom: 1px solid red;
+	color: red;
+}
+.xiahuaxian1{
+	border-bottom: 1px solid #e5e5e5;
+	height: 52px;
+	width: 33px;
+}
+.xiahuaxian1:hover{
+	border-bottom: 1px solid red;
+	color: red;
+}
+.xiahuaxian2{
+	border-bottom: 1px solid #e5e5e5;
+	height: 52px;
+	width: 80px;
+}
+.xiahuaxian2:hover{
+	border-bottom: 1px solid red;
+	color: red;
+}
+/*.topnav2-right{
+	height: 36px;
+	width: 180px;
+	margin-top: 7px;
+	margin-left: 165px;
+	background-color: pink;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}*/
+.shuru{
+	height: 36px;
+	width: 180px;
+	border: none;
+	position: relative;
+	top: 8px;
+	left: 165px;
+border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+}
+.wyj{
+	position:relative;
+	left: 130px;
+	top: 14px;
+	cursor: pointer;
+}
+.banner{
+	width: 100%;
+	height: 540px;
+	overflow: hidden;
+	position: relative;
+}
+.bannerbox{
+	width: 1349px;
+	height: 540px;
+	margin: 0 auto;
+	position: relative;
+	position: absolute;
+	top: 0px;
+
+}
+.leftbnt{
+	width: 100px;
+	height: 540px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	line-height: 540px;
+	z-index: 10;
+	display: none;
+}
+.leftbnt1{
+	opacity: 0.7;
+}
+.rightbnt1{
+	opacity: 0.7;
+}
+.leftbnt img{
+	margin-top: 250px;
+}
+.leftbnt img:hover{
+	cursor: pointer;
+}
+.rightbnt{
+	width: 100px;
+	height: 540px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	line-height: 540px;
+		z-index: 10;
+		display: none;
+}
+.rightbnt img{
+	margin-top: 250px;
+}
+.rightbnt img:hover{
+	cursor: pointer;
+}
+
+.huitou{
+	position: absolute;
+	top: 121px;
+	left: 218px;
+}
+.banner a{
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+    margin-left: 19px;
+}
+.meidingwei{
+	width: 1349px;
+	height: 540px;
+}
+.liaojie{
+	width: 147px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #b02d2e;
+	position: absolute;
+	left: 260px;
+	top: 454px;
+}
+.liaojie:hover{
+	background-color:#d53839;
+}
+.xy{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: black;
+	float: left;
+	margin: 0 10px;
+}
+.dy{
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	top: 500px;
+	left: 45%;
+	z-index: 10;
+}
+#msb{
+	background-color: #fff;
+}
+.xy:hover{
+	cursor: pointer;
+}
+/*.yuan:hover{
+	cursor: pointer;
+}*/
+/*banner栏 end*/
+/*侧边栏 start*/
+.huaweibox{
+	width: 48px;
+	height: 151px;
+	position: fixed;
+	top: 284px;
+	right: 0px;
+	margin: 0px;
+	padding:0px;
+	z-index: 50;
+}
+.shang{
+	width: 48px;
+	height: 48px;
+	background:url(cb.png) 0px -48px;
+	background-color: #cfcfcf;
+}
+.zhong{
+	width: 48px;
+	height: 48px;
+	background:url(cb.png) 0px -96px;
+	margin-top:4px;
+	background-color: #cfcfcf;
+}
+.xia{
+	width: 48px;
+	height: 48px;
+	background:url(cb.png) 0px -144px ;
+	margin-top:4px;
+	background-color: #cfcfcf;
+}
+.shang:hover{
+    width: 48px;
+	height: 48px;
+	background:url(cb.png) 0px -240px ;
+	background-color: #a11515;
+}
+.zhong:hover{
+    width: 48px;
+	height: 48px;
+	background:url(cb.png) 0px -288px ;
+	background-color: #a11515;
+}
+.xia:hover{
+    width: 48px;
+	height: 48px;
+	background:url(cb.png) 0px -336px ;
+	background-color: #a11515;
+}
+/*侧边栏 end*/
+/*新闻栏 start*/
+.new{
+	width: 1170px;
+	height: 60px;
+	background-color: #f7f7f7;
+	margin:0 auto;
+	margin-top: 15px;
+
+}
+.xw{
+    position: relative;
+    bottom: 23px;
+    right: 85px;
+	font-size: 18px;
+}
+.xw:hover{
+	text-decoration: underline;
+}
+.xw1{
+    position: relative;
+    bottom: 24px;
+	font-size: 16px;
+}
+.xw1:hover{
+	text-decoration: underline;
+}
+.xw2{
+    position: relative;
+    bottom: 14px;
+    left: 515px;
+}
+.xw2:hover{
+	cursor: pointer;
+}
+.news{
+	width: 1170px;
+	height: 390px;
+	margin: 15px auto;
+}
+.newf{
+	float: left;
+}
+.new1{
+	width: 370px;
+	height: 390px;
+
+}
+.new1 a{
+	font-size: 18px;
+	position: relative;
+	top: 8px;
+	color: #333333;
+}
+.new1 a:hover{
+	text-decoration: underline;
+}
+.news img:hover{
+	cursor: pointer;
+}
+.new1 p{
+	font-size: 16px;
+	color: #333333;
+	margin-top: 18px;
+}
+.new2{
+	width: 370px;
+	height: 390px;
+	margin-left: 30px;
+
+}
+.new2 a{
+	font-size: 18px;
+	position: relative;
+	top:8px;
+	color: #333333;
+}
+.new2 a:hover{
+	text-decoration: underline;
+}
+.new2 p{
+	font-size: 16px;
+	color: #333333;
+	margin-top: 18px;
+}
+.new3{
+	width: 370px;
+	height: 390px;
+	margin-left: 30px;
+
+}
+.new3 a{
+	font-size: 18px;
+	position: relative;
+	top:8px;
+	color: #333333;
+}
+.new3 a:hover{
+	text-decoration: underline;
+}
+.new3 p{
+	font-size: 16px;
+	color: #333333;
+	margin-top: 18px;
+}
+.newss img{
+	cursor: pointer;
+}
+/*新闻栏 end*/
+/*遨游世界 start*/
+.aoyou{
+	width: 1170px;
+	height: 576px;
+	margin: 0 auto;
+}
+.zhedang{
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+	position: relative;
+	left: 550px;
+	bottom: 325px;
+	border:3px solid #ffffff;
+}
+.zhedang:hover{
+	background-color: rgba(255,0,0,0.3);
+	cursor: pointer;
+}
+.newss{
+	width: 1170px;
+	height: 390px;
+	margin: 25px auto;
+}
+/*遨游世界 end*/
+/*孟磊乖孩子 start*/
+.menglei{
+	width: 1349px;
+	height: 257px;
+	background-color:#f5f5f5;
+	margin: 0 auto;
+}
+.zhanhui{
+	width: 1170px;
+	height: 74px;
+	text-align: center;
+	line-height: 74px;
+	font-size: 25px;
+	margin:0 auto;
+}
+.zhanhuixia{
+	width: 1170px;
+	height: 183px;
+	margin-left:90px; 
+} 
+.zhanhuifu{
+	float: left;
+}
+.world{
+	width: 370px;
+	height: 183px;
+}
+.world a{
+	font-size: 20px;
+	position: relative;
+	top: 14px; 
+	color:black;
+}
+.world a:hover{
+    text-decoration: underline; 
+}
+.world img{
+	margin-top: 29px;
+}
+.world p{
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 15px;
+	line-height: 2em;
+}
+.xiugai{
+	float: left;
+}
+.world1{
+	width: 370px;
+	height: 183px;
+	margin-left: 30px;
+}
+.world1 a{
+	font-size: 20px;
+	position: relative;
+	top: 14px; 
+	color:black;
+}
+.world1 a:hover{
+    text-decoration: underline; 
+}
+.world1 img{
+	position: relative;
+	top: 29px;
+}
+.world1 p{
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 15px;
+	line-height: 2em;
+}
+.world2{
+	width: 370px;
+	height: 183px;
+	margin-left: 30px;
+	overflow: hidden;
+}
+.world2 a{
+	font-size: 20px;
+	position: relative;
+	top: 14px; 
+	color:black;
+}
+.world2 a:hover{
+    text-decoration: underline; 
+}
+.world2 img{
+	position: relative;
+	top: 29px;
+}
+.world2 p{
+	font-size: 14px;
+	margin-top: 30px;
+	margin-left: 15px;
+	line-height: 2em;
+}
+
+/*孟磊乖孩子 end*/
+/*版权链接 start	*/
+.end{
+	width: 1349px;
+	height: 420px;
+	background-color: #272727;
+	margin:0 auto;
+}
+.endboxxia{
+	width: 1170px;
+	height: 73px;
+		position: relative;
+	top:345px;
+}
+.endbox{
+	width: 1170px;
+	height: 420px;
+	margin:0 auto;
+}
+.zuihou{
+	float: left;
+}
+.endbox1{
+	width: 113px;
+	height: 301px;
+	position: relative;
+	top: 40px;
+}
+.endbox li{
+    line-height: 2em;
+    font-size: 16px;
+}
+.endbox a{
+	color:white;
+}
+.endbox a:hover{
+	text-decoration: underline;
+}
+ul .fangwen{
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+.endbox2{
+		width: 113px;
+	height: 301px;
+	position: relative;
+	top: 40px;
+	margin-left: 79px;
+}
+.endbox3{
+		width: 113px;
+	height: 301px;
+	position: relative;
+	top: 40px;
+	margin-left: 79px;
+}
+.endbox4{
+		width: 113px;
+	height: 301px;
+	position: relative;
+	top: 40px;
+	margin-left: 79px;
+}
+.endbox5{
+		width: 370px;
+	height: 301px;
+	position: relative;
+	top: 40px;
+	margin-left: 110px;
+}
+.endbox5 li{
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+
+}
+.endbox5 li:hover{
+	cursor: pointer;
+}
+.weixinma{
+	margin-top: 20px;
+}
+.endbox5 p{
+	margin-top: 20px;
+	color: white;
+	font-size: 14px;
+
+}
+.endboxxia li{
+	float: left;
+	font-size: 14px;
+	line-height: 73px;
+	position: relative;
+	bottom: 300px;
+	margin-left: 8px
+}
+.yidong{
+	position: relative;
+	left: 300px;
+}
+.endboxxia a:hover{
+	text-decoration: underline;
+}
+.endboxxia ul{
+	color: white;
+}
+
+/*版权链接 end*/
